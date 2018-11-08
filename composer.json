@@ -1,0 +1,20 @@
+{
+  "name": "tt/composer-test",
+  "description": "try make a package",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "TDTzzz",
+      "email": "1150976163@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Animal\\Dog\\": "src/Animal/Dog",
+      "Animal\\Cat\\": "src/Animal/Cat"
+    }
+  }
+}
